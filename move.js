@@ -11,8 +11,8 @@ function move(element) {
         let x = left;
         let y = bottom;
 
-        element.style.left = x = 'px'
-        element.style.bottom = y = 'px'
+        element.style.left = x + 'px'
+        element.style.bottom = y + 'px'
         
         function moveCharacter(){ 
             if(direction === 'west'){
